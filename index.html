@@ -730,7 +730,19 @@
           <p class="project-number">03</p>
           <h3 class="project-title">A/B Test - Landing Page</h3>
           <p class="project-desc">
-            (Pendiente)
+            La experiencia del usuario juega un rol muy importante al momento
+            de realizar compras en línea, ya que puede ser la diferencia entre
+            una venta exitosa o una visita sin conclusión al sitio web.
+
+            Este aspecto es continuamente moldeado por los especialistas en 
+            UX/UI para mejorar la conversión, sin embargo este tipo de cambios
+            impactan mucho y si se toma una mala decisión, esto cuesta mucho 
+            a la empresa.
+
+            El objetivo de este proyecto fue evaluar un experimento A/B 
+            realizado en una página de inicio con versiones A y B, para 
+            determinar cuál genera mayor valor económico y una mejor tasa de 
+            conversión, y así recomendar qué versión adoptar.
           </p>
         </div>
         <div class="project-tools">
@@ -747,22 +759,22 @@
           <p class="project-section-label teal">Metodología</p>
           <ul class="project-list">
             <li>Exploración, limpieza y transformación de datos con Pandas.</li>
-            <li>Visualización de correlaciones con Plotly y Seaborn.</li>
-            <li>Cálculo de coeficientes Pearson y Spearman para identificar correlación.</li>
+            <li>Comparación de promedios y ratios de conversión.</li>
+            <li>Pruebas estadísticas para determinar presencia de correlación.</li>
           </ul>
         </div>
         <div>
           <p class="project-section-label amber">Resultados clave</p>
           <ul class="project-list">
-            <li>Existe una correlación positiva moderada entre gasto_publicidad_dirigida y visitas_mes (Pearson: 0.58, Spearman: 0.56).</li>
-            <li>Existe una correlación positiva débil entre visitas_mes e ingreso_anual (Pearson: 0.34, Spearman: 0.32).</li>
+            <li>Existe diferencia estadísticamente significativa entre los grupos (prueba T de Welch, p < 0.05); la página B muestra un gasto promedio ~12.5% mayor que la página A entre usuarios convertidos.</li>
+            <li>existe diferencia estadísticamente significativa entre los grupos (prueba Z de dos proporciones, p < 0.05); las tasas fueron 12.5% (A) vs. 16% (B), una diferencia de ~3.5 puntos porcentuales.</li>
             <li>compras_mes e ingreso_anual muestran una correlación positiva alta, pero se descarta como hallazgo principal por posible colinealidad (compras × precio promedio ≈ ingreso).</li>
-            <li>Las variables binarias (miembro_premium, abandono) y categóricas (tipo_dispositivo, region) muestran relaciones débiles con ingreso_anual.</li>
+            <li>Se recomienda adoptar la página B como versión definitiva del sitio, dado el incremento tanto en gasto promedio como en tasa de conversión.</li>
           </ul>
         </div>
       </div>
       <div class="project-image">
-  <img src="images/scatterplot1.png" alt="Visualización con Plotly" />
+  <img src="images/barplot1.png" alt="Visualización con Plotly" />
 </div>
       <div class="project-footer">
         <a class="project-link" href="https://github.com/alexisjmz88/Sprint-9-Experimento-A-B" target="_blank" rel="noopener">
