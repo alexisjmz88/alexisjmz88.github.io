@@ -617,6 +617,64 @@
       <div class="project-header">
         <div>
           <p class="project-number">01</p>
+          <h3 class="project-title">Evaluación de riesgo con Value at Risk (VaR)</h3>
+          <p class="project-desc">
+            Analicé un conjunto de de series temporales financieras con un enfoque hacia 
+            la modelación y pronóstico de volatilidad condicional, evaluación fuera de muestra 
+            y medición dinámica del riesgo mediante Value at Risk (VaR).
+          </p>
+        </div>
+        <div class="project-tools">
+          <span class="tool-badge">SQL</span>
+          <span class="tool-badge">Python</span>
+          <span class="tool-badge">Pandas</span>
+          <span class="tool-badge">Numpy</span>
+          <span class="tool-badge">Plotly</span>
+          <span class="tool-badge">Seaborn</span>
+          <span class="tool-badge">Scipy.stats</span>
+          <span class="tool-badge">sklearn.metrics</span>
+          <span class="tool-badge">ARIMA</span>
+          <span class="tool-badge">ARCH</span>
+        </div>
+      </div>
+      <div class="project-body">
+        <div>
+          <p class="project-section-label teal">Metodología</p>
+          <ul class="project-list">
+            <li>Exploración, limpieza y transformación de datos con SQL.</li>
+            <li>Análisis estadístico de los activos (rendimientos, drawdown, volatilidad y sensibilidad al mercado).</li>
+            <li>Modelación de la media (ARIMA) y la varianza condicional (GARCH) de los rendimientos logarítmicos.</li>
+            <li>Evaluación de la capacidad predictiva de los modelos fuera de muestra con ventana expansiva.</li>
+            <li>Cálculo de un VaR dinámico al 95% y validarlo con pruebas de Kupiec y Christoffersen.</li>
+          </ul>
+        </div>
+        <div>
+          <p class="project-section-label amber">Resultados clave</p>
+          <ul class="project-list">
+            <li>ARIMA aporta poca estructura a la media (excepto en soxx, con ARIMA(0,0,4)).</li>
+            <li>Las pruebas ADF y KPSS confirman que los cinco rendimientos son estacionarios.</li>
+            <li>Se obtuvieron resultados consistentes en la evaluación de los modelos GARCH, aunque hubo dificultades en episodios extremos.</li>
+            <li>Fue posible estimar la volatilidad condicional de cada activo, pronosticarla fuera de muestra y convertirla en un VaR dinámico.</li>
+            <li>Ninguno de los cinco modelos rechaza conjuntamente las pruebas de cobertura (Kupiec) e independencia (Christoffersen), lo que respalda su utilidad para la medición de riesgo, con distintos grados de confianza según el activo.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="project-image">
+  <img src="images/log_scale_stock_prices.png" alt="Visualización con Plotly" />
+</div>
+      <div class="project-footer">
+        <a class="project-link" href="https://github.com/alexisjmz88/Stock_analysis_Risk_evaluation_using_VaR" target="_blank" rel="noopener">
+          Ver repositorio
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+        </a>
+      </div>
+    </article>
+
+    <!-- PROYECTO 2 -->
+    <article class="project-card">
+      <div class="project-header">
+        <div>
+          <p class="project-number">02</p>
           <h3 class="project-title">Análisis del desempeño financiero con SQL</h3>
           <p class="project-desc">
             Evalué la rentabilidad de distintas regiones de una empresa retail, analizando 
@@ -662,11 +720,11 @@
       </div>
     </article>
 
-    <!-- PROYECTO 2 -->
+    <!-- PROYECTO 3 -->
     <article class="project-card">
       <div class="project-header">
         <div>
-          <p class="project-number">02</p>
+          <p class="project-number">03</p>
           <h3 class="project-title">Análisis de comportamiento de clientes</h3>
           <p class="project-desc">
             Analicé los datos de ventas de una empresa de comercio electrónico, realizando procesos 
@@ -713,11 +771,11 @@
       </div>
     </article>
 
-    <!-- PROYECTO 3 -->
+    <!-- PROYECTO 4 -->
     <article class="project-card">
       <div class="project-header">
         <div>
-          <p class="project-number">03</p>
+          <p class="project-number">04</p>
           <h3 class="project-title">Experimento A/B para nueva página de inicio</h3>
           <p class="project-desc">
             Evalué un experimento A/B entre dos versiones de una página de inicio, comparando 
@@ -763,11 +821,11 @@
       </div>
     </article>
 
-    <!-- PROYECTO 4 -->
+    <!-- PROYECTO 5 -->
     <article class="project-card">
       <div class="project-header">
         <div>
-          <p class="project-number">04</p>
+          <p class="project-number">05</p>
           <h3 class="project-title">Dashboard de desempeño comercial 2024–2025</h3>
           <p class="project-desc">
             Desarrollé un dashboard ejecutivo para analizar la evolución de los ingresos de 
