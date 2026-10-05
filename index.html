@@ -825,17 +825,21 @@
       <div class="project-header">
         <div>
           <p class="project-number">05</p>
-          <h3 class="project-title">Dashboard de desempeño comercial 2024–2025</h3>
+          <h3 class="project-title">Análisis de desempeño económico de RappiPlus (H1 2025)</h3>
           <p class="project-desc">
-            Desarrollé un dashboard ejecutivo para analizar la evolución de los ingresos de 
-            una empresa retail entre 2024 y 2025, identificando y desglosando los principales 
-            factores detrás de sus variaciones.
-            Analicé datos de ventas y transacciones para evaluar la dinámica del negocio y 
-            generar información relevante para el seguimiento del desempeño financiero.
-             
+            Análisis del desempeño económico del servicio RappiPlus durante la primera mitad de 2025 
+            (01/01/2025 – 30/06/2025), con foco en ingresos, costos, inversión en marketing y rentabilidad.
+
+            El proyecto transforma tres fuentes de datos (pedidos, catálogo de productos y gasto en 
+            marketing) en indicadores clave del negocio y los comunica mediante un dashboard, con el fin de 
+            responder preguntas clave y proponer recomendaciones accionables.
           </p>
         </div>
         <div class="project-tools">
+          <span class="tool-badge">Python</span>
+          <span class="tool-badge">pandas</span>
+          <span class="tool-badge">numpy</span>
+          <span class="tool-badge">matplotlib</span>
           <span class="tool-badge">PowerBI</span>
         </div>
       </div>
@@ -843,17 +847,16 @@
         <div>
           <p class="project-section-label teal">Metodología</p>
           <ul class="project-list">
-            <li>Exploración, limpieza y transformación de datos con PowerQuery.</li>
-            <li>Cálculo de métricas y generación de columnas condicionales.</li>
-            <li>Diseño y construcción de dashboard con KPI's y visualizaciones.</li>
+            <li>Carga, limpieza y validación de los tres datasets. Exportación de datasets limpios.</li>
+            <li>Unión de pedidos con costos del catálogo y cálculo de ingreso total, costo total, inversión en marketing, utilidad, margen, ticket promedio, cantidad promedio por orden, producto más vendido y gasto por canal.</li>
+            <li>Dashboard con tres vistas: overview ejecutivo, detalle por producto y drill-through a nivel de pedido.</li>
           </ul>
         </div>
         <div>
           <p class="project-section-label amber">Resultados clave</p>
           <ul class="project-list">
-            <li>El ingreso muestra un comportamiento cíclico a lo largo del año, con caídas claras en ciertos periodos.</li>
-            <li>Al segmentar por estación, se identificó que la caída de ingresos ocurre de forma consistente durante el invierno.</li>
-            <li>La causa principal no es una menor cantidad de pedidos, sino un ticket promedio de compra significativamente más bajo durante esa temporada.</li>
+            <li>RappiPlus generó $51.97 M en ingresos durante el primer semestre de 2025, con una inversión en marketing de $2.87 M repartida entre tres canales (orgánico, búsqueda pagada y redes sociales).</li>
+            <li>El costo de los productos vendidos absorbe el 83% del ingreso y el marketing otro 5.5%, por lo que el margen final es reducido. Además, las ventas dependen en gran medida de un solo producto, lo que concentra el riesgo operativo.</li>
           </ul>
         </div>
       </div>
@@ -861,7 +864,7 @@
   <img src="images/dashboard_overview.png" alt="Visualización con Plotly" />
 </div>
       <div class="project-footer">
-        <a class="project-link" href="https://github.com/alexisjmz88/Sprint-10-Dashboard-de-desempe-o-comercial" target="_blank" rel="noopener">
+        <a class="project-link" href="https://github.com/alexisjmz88/Analisis-de-desempeno-RappiPlus" target="_blank" rel="noopener">
           Ver repositorio
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
         </a>
