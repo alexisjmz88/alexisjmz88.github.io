@@ -674,45 +674,55 @@
       <div class="project-header">
         <div>
           <p class="project-number">02</p>
-          <h3 class="project-title">Análisis del desempeño financiero con SQL</h3>
+          <h3 class="project-title">Análisis y proyección de ingresos con SQL y Python</h3>
           <p class="project-desc">
-            Evalué la rentabilidad de distintas regiones de una empresa retail, analizando 
-            márgenes respecto a la inversión en marketing para identificar las regiones con 
-            mayor eficiencia.
-            Generé insights para la asignación estratégica del presupuesto de marketing, 
-            identificando regiones con potencial de mayor inversión y aquellas donde era 
-            necesario optimizar o reducir el gasto.
+            Analicé los datos de ventas de una tienda de productos de oficina e identifiqué 
+            hacia qué productos, regiones, categorías y segmentos de clientes se debe dirigir la 
+            estrategia, y cuáles se deben evitar.
+
+            Las primeras fases se desarrollan con SQL (DuckDB), donde generé cuadros resumen y tablas 
+            consolidadas con KPIs. Posteriormente pronostiqué los ingresos mensuales para el año posterior, 
+            comparando modelos estadísticos de series temporales (Seasonal Naïve, Holt-Winters y SARIMA).
           </p>
         </div>
         <div class="project-tools">
           <span class="tool-badge">SQL</span>
-          <span class="tool-badge">Google Sheets</span>
+          <span class="tool-badge">Python</span>
+          <span class="tool-badge">Pandas</span>
+          <span class="tool-badge">Numpy</span>
+          <span class="tool-badge">Plotly</span>
+          <span class="tool-badge">Seaborn</span>
+          <span class="tool-badge">Holt-Winters</span>
+          <span class="tool-badge">SARIMA</span>
+          <span class="tool-badge">Backtesting</span>
         </div>
       </div>
       <div class="project-body">
         <div>
           <p class="project-section-label teal">Metodología</p>
           <ul class="project-list">
-            <li>Limpieza y preprocesamiento del dataset con más de 11 mil registros.</li>
-            <li>Análisis exploratorio e identificación de variables clave.</li>
-            <li>Creación de filtros y cálculo de KPIs.</li>
-            <li>Cuadro resumen en Google Sheets para presentación de resultados.</li>
+            <li>Limpieza y preprocesamiento del dataset con más de 9 mil registros.</li>
+            <li>Análisis global de KPIs anuales y mensuales.</li>
+            <li>Resultados por segmento, región, categoría y subcategoría; productos con pérdidas y descuentos aplicados.</li>
+            <li>Generación y evaluación de modelos Seasonal Naïve, Holt-Winters y SARIMA para proyección de ingresos.</li>
           </ul>
         </div>
         <div>
           <p class="project-section-label amber">Resultados clave</p>
           <ul class="project-list">
-            <li>Identificación de 2 regiones que requieren reestructuración de costos de marketing.</li>
+            <li>Los ingresos aumentaron 20.36% en 2017, pero el margen bruto cayó de 13.43% a 12.74%.</li>
             <li>Generación de query reproducible para facilitar futuras consultas y análisis.</li>
-            <li>Recomendaciones adoptadas por el equipo directivo.</li>
+            <li>West (17.51%) y East (15.60%) presentaron los mejores márgenes, mientras que Central (5.13%) y South (7.20%) mostraron un desempeño significativamente menor.</li>
+            <li>Las subcategorías Tables, Bookcases, Supplies y Machines presentaron márgenes negativos, con productos de alta demanda que contribuyeron significativamente a las pérdidas.</li>
+            <li>El modelo ETS aditivo obtuvo el mejor desempeño general fuera de muestra y proyectó ingresos de $914,968.06 para 2018, equivalentes a un crecimiento estimado de 24.79% frente a 2017.</li>
           </ul>
         </div>
       </div>
       <div class="project-image">
-  <img src="images/tabla_resumen.png" alt="Visualización con Plotly" />
+  <img src="images/2018_forecast.png" alt="Visualización con Plotly" />
 </div>
       <div class="project-footer">
-        <a class="project-link" href="https://github.com/alexisjmz88/Sprint3_Desempeno-financiero-Adventure-Works-SQL" target="_blank" rel="noopener">
+        <a class="project-link" href="https://github.com/alexisjmz88/superstore_analysis_and_forecast" target="_blank" rel="noopener">
           Ver repositorio
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
         </a>
